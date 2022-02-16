@@ -39,7 +39,7 @@ export default function FAQ(){
 <p className="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
 <ul className="list-disc pl-5 dark:text-gray-400 text-gray-500">
 <li><a href="https://flowbite.com/pro/" target="_blank" rel="noreferrer" className="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
-<li><a href="https://tailwindui.com/" rel="nofollow" target="_blank" rel="noreferrer" className="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
+<li><a href="https://tailwindui.com/" target="_blank" rel="noreferrer" className="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
 </ul>
 </div>
 </div>
