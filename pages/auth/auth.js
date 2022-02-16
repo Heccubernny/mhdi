@@ -1,3 +1,4 @@
+import Image from 'next/image'
 export default function Auth(){
     return(
         <div>
@@ -7,7 +8,7 @@ export default function Auth(){
                     <div className="max-w-md mx-auto">
                         <div className="mb-6 lg:mb-20 w-full px-3 flex items-center justify-between">
                         <a className="text-white text-3xl font-bold leading-none" href="#">
-                            <img className="h-12" src="atis-assets/logo/atis/atis-color-white.svg" alt="" width="auto"/>
+                            <Image className="h-12" src="atis-assets/logo/atis/atis-color-white.svg" alt="" width="auto"></Image>
                         </a>
                         <a className="py-2 px-6 text-xs rounded-l-xl rounded-t-xl bg-purple-600 hover:bg-purple-700 text-white font-bold transition duration-200" href="#">Sign In</a>
                         </div>
@@ -54,7 +55,7 @@ export default function Auth(){
                     </div>
                     <div className="hidden lg:block relative w-full lg:w-1/2 bg-purple-600">
                     <div className="absolute bottom-0 inset-x-0 mx-auto mb-12 max-w-xl text-center" style="z-index: 10;">
-                        <img className="lg:max-w-xl mx-auto" src="atis-assets/illustrations/pablo-coming-soon-flat-color.png" alt=""/>
+                        <Image className="lg:max-w-xl mx-auto" src="atis-assets/illustrations/pablo-coming-soon-flat-color.png" alt=""></Image>
                         <h2 className="mb-2 text-2xl text-white font-bold">So much more than a business analytics tool</h2>
                         <div className="max-w-lg mx-auto">
                         <p className="mb-6 text-gray-50 leading-loose">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque efficitur nisl sodales egestas lobortis.</p>
@@ -70,7 +71,7 @@ export default function Auth(){
                     </div>
                     <div className="lg:hidden bg-green-600 w-full">
                     <div className="relative w-full">
-                        <img className="relative mx-auto max-w-sm mt-4 mb-4 block" src="atis-assets/illustrations/pablo-coming-soon-flat-color.png" alt=""/>
+                        <Image className="relative mx-auto max-w-sm mt-4 mb-4 block" src="atis-assets/illustrations/pablo-coming-soon-flat-color.png" alt=""></Image>
                         <div className="flex justify-center space-x-3">
                         <button className="p-1 bg-purple-500 rounded-full"></button>
                         <button className="p-1 bg-purple-500 rounded-full"></button>

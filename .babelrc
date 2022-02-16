@@ -1,0 +1,7 @@
+{
+    "plugins": ["react-html-attrs"]
+}
+
+// {
+//     "presets": [["@babel/preset-react", { "throwIfNamespace": false }]]
+// }
